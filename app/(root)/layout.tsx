@@ -1,14 +1,13 @@
+import "../globals.css"
 import React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import { ClerkProvider } from "@clerk/nextjs"
 // import { dark } from "@clerk/themes";
-
-import "../globals.css"
-import Topbar from "@/componens/shared/Topbar"
-import LeftSidebar from "@/componens/shared/LeftSidebar"
-import RightSidebar from "@/componens/shared/RightSidebar"
-import Bottombar from "@/componens/shared/Bottombar"
+import Topbar from "@/components/shared/Topbar"
+import LeftSidebar from "@/components/shared/LeftSidebar"
+import RightSidebar from "@/components/shared/RightSidebar"
+import Bottombar from "@/components/shared/Bottombar"
 
 const inter = Inter({ subsets: ["latin"] })
 
